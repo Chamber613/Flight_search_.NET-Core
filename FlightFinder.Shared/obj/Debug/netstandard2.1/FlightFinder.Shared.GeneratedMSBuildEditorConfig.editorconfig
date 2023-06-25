@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = FlightFinder.Shared
+build_property.ProjectDir = E:\Sample Projects\ASP.NET project\aspnet samples\samples\aspnetcore\blazor\FlightFinder\FlightFinder.Shared\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

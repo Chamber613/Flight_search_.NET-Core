@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Server\\FlightFinder.Server.csproj": {}
+  },
+  "projects": {
+    "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Client\\FlightFinder.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Client\\FlightFinder.Client.csproj",
+        "projectName": "FlightFinder.Client",
+        "projectPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Client\\FlightFinder.Client.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj": {
+                "projectPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Blazor": {
+              "target": "Package",
+              "version": "[3.1.0-preview4.19579.2, )"
+            },
+            "Microsoft.AspNetCore.Blazor.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview4.19579.2, )"
+            },
+            "Microsoft.AspNetCore.Blazor.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0-preview4.19579.2, )"
+            },
+            "Microsoft.AspNetCore.Blazor.HttpClient": {
+              "target": "Package",
+              "version": "[3.1.0-preview4.19579.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Server\\FlightFinder.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Server\\FlightFinder.Server.csproj",
+        "projectName": "FlightFinder.Server",
+        "projectPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Server\\FlightFinder.Server.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Client\\FlightFinder.Client.csproj": {
+                "projectPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Client\\FlightFinder.Client.csproj"
+              },
+              "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj": {
+                "projectPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Blazor.Server": {
+              "target": "Package",
+              "version": "[3.1.0-preview4.19579.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj",
+        "projectName": "FlightFinder.Shared",
+        "projectPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\FlightFinder.Shared.csproj",
+        "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+        "outputPath": "E:\\Sample Projects\\ASP.NET project\\aspnet samples\\samples\\aspnetcore\\blazor\\FlightFinder\\FlightFinder.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
